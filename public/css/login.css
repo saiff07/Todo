@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #F3F2EE;
+    height: 100vh;
+}
+
+.log {
+    width: 50%;
+}
+
+.log-in {
+    display: flex;
+    /* position: absolute; */
+    flex-direction: row-reverse;
+    /* justify-content: space-between;   */
+    padding: 20vh 1px 1px 1px;
+    height: 60vh;
+}
+
+.log-in-form {
+    background-color: rgb(255, 255, 255);
+    /* position: relative; */
+    height: 50vh;
+    width: 20vw;
+    margin-left: 10vw;
+    padding: 5vh 0vw 1px 3vw;
+    /* justify-content: center; */
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #304134;
+    /* padding: 0px 0px 0px 0px; */
+    /* padding: */
+}
+
+.log-in-form h2 {
+   
+    padding-bottom: 5vh;
+    padding-left: 6vw;
+    /* text-align: justify; */
+    /* padding-left: 25px; */
+    /* text-align: center; */
+}
+
+.log-in-form p {
+    padding-bottom: 5vh;
+}
+
+.log-in-form p a{
+    text-decoration: none;
+    color: black;
+}
+
+.demo  {
+    position: relative; 
+    padding: 1%;
+    width: 80%;
+    color: rgba(17, 17, 17, 0.5);
+    font-size: smaller;
+    /* font-stretch:; */
+    /* margin: 0% 5% 0% 5%; */
+    border: none;
+    background: none;
+    border-bottom: 1px solid grey;
+    /* border-radius: 10px;  */
+    outline: none;
+} 
+
+.login-btn {
+    position: relative;
+    /* padding: 1%; */
+    width: 80%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    /* margin: 0% 5% 0% 5%; */
+    border: none;
+    background: rgba(0, 0, 0, 0.655);
+    cursor: pointer;
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    /* outline: none; */
+}
+
+li{
+    list-style: none;
+    padding-bottom: 20px;   
+}
+
+.log-in-head {
+    display: flex;
+}
+
+.log-in-line {
+    margin-left: 5vw;
+    height: 50vh;
+    width: .005vw;
+    background-color: black;
+}
+
+.head-title h1 {
+    /* display: flex; */
+    padding-right: 5vw;
+    padding-top: 10vw;
+    padding-bottom: 2vw;
+    /* text-align: center; */
+    padding-left: 2vw
+    
+}
+.head-title p {
+    /* display: flex; */
+   
+    padding-bottom: 0.5vw;
+    /* text-align: center; */
+ 
+    
+}
+
+.slogan {
+    /* display: flex; */
+    padding-right: 2.5vw;
+    padding-top: 10vw;
+}
+
+.login-btn:hover {
+    background-color: black;
+}
